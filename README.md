@@ -5,17 +5,12 @@
 ## Table of contents
 
 - [Technologies](#technologies)
-- [Demo](#demo)
 - [Setup](#setup)
 - [Scope of Functionalities](#scope-of-functionalities)
 
 ## Technologies
 
 - React.js (with Redux)
-
-## Demo
-
-Here is a working [live demo](https://danakim21.github.io/news-search-engine)
 
 ## Setup
 
