@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import './styles/App.css';
+import no_image from './styles/no-image.jpg';
+import NewsList from './NewsList';
+import Login from './Login';
+import Favorite from './Favorite';
+import store from './redux/store';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={NewsList} />
+            <Route path="/login" component={Login} />
+            <Route path="/favorites" component={Favorite} />
+          </Switch>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,19 @@
+body {
+  margin: 1em;
+  padding: 0;
+}
+
+.news-row {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.news-row img {
+  flex: 1;
+  width: 200px;
+  margin-right: 3em;
+}
+
+.news-row div {
+  flex: 4;
+}
