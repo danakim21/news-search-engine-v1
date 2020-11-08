@@ -28,6 +28,8 @@ $ npm install
 $ npm start
 ```
 
+If API data fetch fails, change the **API_KEY** in **NewsList.js** file. 
+
 ## Scope of Functionalities
 
 **List of features ready**
