@@ -35,7 +35,7 @@ $ npm start
 
 ## Scope of Functionalities
 
-List of features ready
+**List of features ready**
 
 - Search Features
   - Search through News API based on keywords
@@ -49,12 +49,12 @@ List of features ready
   - Can delete from favorites list
   - Can check favorite articles from favorite list
 
-To Do
+**To Do**
 
 - Keep favorite list when website is reloaded
 - Edit news content of favorite articles
 
-Features to fix / Improvements
+**Features to fix / Improvements**
 
 - Error when last page is reached (pagination)
 - Better files and folder formatting & Better use of redux
