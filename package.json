@@ -1,7 +1,7 @@
 {
   "name": "news-search-engine",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "hompage": "https://danakim21.github.io/news-search-engine/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
